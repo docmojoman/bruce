@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRUCE RICH | Admin Area | Edit Article</title>
+    <link rel="stylesheet" href="../assets/css/app.css">
+  </head>
+  <body>
+  <div id="admin-menu">
+  <div class="grid-container">
+    <div class="grid-x grid-margin-x align-right">
+      <div class="cell small-9">
+        <h1 id="admin-logo" class="h5"><a href="../admin/dashboard.html" class="uppercase">Bruce Rich</a></h1>
+      </div>
+      <div class="cell small-3">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li>
+            <a href="#">Hello Bruce</a>
+            <ul class="menu">
+              <li><a href="../admin/">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div> <!-- #admin-menu -->
+
+    <div id="admin">
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x margin-top-80">
+        <div class="cell medium-8 medium-offset-2">
+          <h1 class="h2 text-center">Edit Article</h1>
+          <form action="">
+            <label>Title:
+              <input type="text" placeholder="Title">
+            </label>
+            <label>Author ( + coauthor if provided ):
+              <input type="text" placeholder="Author">
+            </label>
+            <label>Publication:
+              <input type="text" placeholder="Publication">
+            </label>
+            <label>Date:
+              <input type="text" placeholder="Date">
+            </label>
+            <label>Page:
+              <input type="text" placeholder="Page">
+            </label>
+            <label>Description/Excerpt:
+              <textarea name="excerpt" id="" cols="30" rows="10"></textarea>
+            </label>
+            <label>Page Image:
+              <input type="file" placeholder="image">
+            </label>
+            <label>Link:
+              <input type="text" placeholder="link">
+            </label>
+            <label>PDF:
+              <input type="file" placeholder="pdf">
+            </label>
+            <label>Tags:
+              <input type="text" placeholder="tags">
+            </label>
+            <fieldset>
+              <legend>Select:</legend>
+              <input type="checkbox" name="category" value="" id="developing" required><label for="developing">Environmental Forum: The Developing World</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="cover"><label for="cover">Environmental Forum: Cover Stories</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="review"><label for="review">Law Review Articles And Comments</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="congressional"><label for="congressional">Congressional Testimony</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="finance"><label for="finance">Development Finance, Environment and Institutions</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="ashoka"><label for="ashoka">Ashoka, Buddhism and Globalization</label>
+              <br />
+              <input type="checkbox" name="category" value="" id="topical"><label for="topical">Topical Articles and Reviews</label>
+            </fieldset>
+            <a class="button large dark expanded margin-top-40" href="articles-edit.html">Save</a>
+          </form>
+        </div>
+      </div>
+    
+
+    <div class="grid-x grid-margin-x margin-top-80">
+      <div class="cell small-12 text-center">
+        <h6>Bruce Rich CMS <small>Version .05</small></h6>
+      </div>
+    </div>
+    <script src="../assets/js/app.js"></script>
+  </body>
+</html>
